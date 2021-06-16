@@ -1,0 +1,14 @@
+@import 'reset';
+
+@import 'components/main';
+@import 'components/about';
+@import 'components/office';
+@import 'components/place';
+
+a,
+button{
+    cursor: pointer;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}

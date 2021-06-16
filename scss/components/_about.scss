@@ -1,0 +1,94 @@
+.about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    //margin-left: 300px;
+}
+.about-content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+.tabs-content {
+    transition: 1s ease;
+    margin-left: 140px;
+    height: 700px;
+    overflow: hidden;
+}
+.tabs-item{
+    transition: 0.5s ease;
+    font-size: 20px;
+    width: 150px;
+    color: #1A2029;
+}
+.tabs-item.active1{
+    color: #4398C2;
+}
+.tabs-ul-item{
+    max-width: 670px;
+    display: none;
+}
+.tabs-ul-item.active1{
+    display: block;
+}
+.tabs{
+    padding-top: 300px !important;
+}
+#one{
+    padding-top: 170px;
+}
+#two{
+    padding-top: 170px;
+}
+#three{
+    padding-top: 170px;
+}
+//введение
+.tabs-h1 {
+    color: #1A2029;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+.tabs-h4 {
+    margin-top: 30px;
+    color: #1A2029;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+}
+.tabs-p {
+    margin-top: 20px;
+    color: #1A2029;
+    font-weight: 400;
+    font-size: 17px;
+}
+//service
+.services-1 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mrg{
+    margin-left: 30px;
+}
+.service-p {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.services-2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.tabs-ul{
+    //top: 100vh;
+    top: 0;
+    position: absolute;
+}
